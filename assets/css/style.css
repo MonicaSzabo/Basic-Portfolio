@@ -7,7 +7,6 @@
 
 body {
 	background-image: url("../images/background.png");
-	align-items: center;
 	width: 960px;
 	margin: 0 auto;
 }
@@ -26,23 +25,35 @@ header {
 #theTop {
 	float: left;
 	width: 100%;
-	background-color: #fff;	
+	background-color: #fff;
+	border-bottom: solid #ddd;
 }
 
 #topBar {
 	float: right;
 	color: #aaa;
-	padding: 20px;
+	padding: 25px;
+}
+
+.topLinks {
+	padding: 10px;
 }
 
 #theMiddle {
-	padding: 100px 0px 100px 0px;
+	float: left;
+	padding: 30px 0px 30px 0px;
+	width: 960px;
 }
 
 #content {
 	float: left;
 	width: 650px;
 	padding: 20px;
+}
+
+#profile {
+	float: left;
+	margin: 0px 10px 10px 0px;
 }
 
 #connect {
@@ -60,33 +71,26 @@ h1 {
 section {
 	background-color: #fff;
 	border-style: solid;
-	border-color: #dddddd;
+	border-color: #ddd;
 }
 
 footer {
 	background-color: #666;
-	color: #fff;
+	color: #cdd;
 	text-align: center;
 	padding: 20px;
 	font-size: 10px;
-	border-top: solid #4aaaa5;
+	border-top: thick solid #4aaaa5;
 	clear: both;
-	margin-top: 100px;
 }
 
 a{
 	color: #aaa;
 	text-decoration: none;
-	padding: 10px;
 }
 
 a:hover {
     color: #666;
-}
-
-#profile {
-	float: left;
-	margin: 0px 10px 10px 0px;
 }
 
 p {
