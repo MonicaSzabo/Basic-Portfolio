@@ -186,30 +186,10 @@ hr{
 	font-size: 26px;
 	color: #fff;
 	padding: 13px;
+	margin: 15px 10px 15px 10px;
 	width: 275px;
 	text-align: center;
 	position: relative;
-	z-index: 2;
 	top: -100px;
-	margin: 15px 10px 15px 10px;
-}
-
-.twoPics {
-	width: 600px;
-	overflow: hidden;
-	/*border-style: solid;
-	border-color: red;*/
-}
-
-.first {
-	width: 275px;
-	float: left;
-	border-style: solid;
-	border-color: blue;
-}
-
-.second{
-	overflow: hidden;
-	border-style: solid;
-	border-color: green;
+	z-index: 2;
 }
